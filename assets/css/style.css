@@ -1,0 +1,10 @@
+.navbar-nav{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;  
+    margin-right: 0px;
+    width: 100%;
+}
+.nav-item{
+    justify-content: space-around;
+
+}

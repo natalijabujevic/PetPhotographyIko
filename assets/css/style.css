@@ -3,8 +3,41 @@
     grid-template-columns: 25% 25% 25% 25%;  
     margin-right: 0px;
     width: 100%;
+    font-size: 22px;
+    text-align: center;
 }
 .nav-item{
     justify-content: space-around;
 
+}
+
+.photo {
+    height: 550px;
+    width: 100%;
+    background: url("../images/doggo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2 {
+    padding-top: 60px;
+    margin-left: 120px;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#name{
+    font-size: 45px;
+    margin-left: 90px;
+}
+
+.social-links{
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+.social-links .col a i{
+    color: #212529;
 }

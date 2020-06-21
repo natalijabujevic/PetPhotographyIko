@@ -1,3 +1,4 @@
+/*--------------------------------- Heading*/
 .navbar-nav{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;  
@@ -10,8 +11,8 @@
     justify-content: space-around;
 
 }
-
-.photo {
+/*---------------------------------- Home page*/
+.photo-home {
     height: 570px;
     width: 100%;
     background: url("../images/doggo.jpg");
@@ -20,7 +21,7 @@
     background-size: cover;
     opacity: 0.95;
 }
-h1 {
+.title-home {
     padding-top: 60px;
     margin-left: 280px;
     font-family: 'Sriracha', cursive;
@@ -32,16 +33,56 @@ h3 {
     text-align: center;
     margin-right: 1600px;
     font-size: 40px;
-    margin-top: 70px;
-    
-
+    margin-top: 70px; 
 }
 
 #name{
     font-size: 55px;
     margin-left: 90px;
 }
+/*----------------------------------About Us page*/
+.photo-aboutUs {
+    height: 570px;
+    width: 100%;
+    background: url("../images/doggo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
 
+
+.text-aboutUs {
+    background-color:  rgb(22, 21, 21,0.5); 
+    width: 45%;
+    margin-right: 700px;
+    margin-left: 30px;
+    text-align: center;
+    height: 350px;
+    font-size: 30px;
+    padding-left: 0;
+    color: #fafafa;
+}
+
+.title-aboutUs {
+    padding-top: 60px;
+    margin-left: 420px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: #fafafa;
+}
+
+ul {
+    list-style: none;
+    line-height: 25px;
+}
+ul li {
+    margin: 30px;
+    margin-left: 0;
+}
+
+
+/*----------------------------------- Footer*/
 
 .social-links{
     text-align: center;
@@ -52,8 +93,9 @@ h3 {
 .social-links .col a i{
     color: #212529;
 }
+/*-------------------------------------------- Media Querys*/
 @media only screen and (max-width: 1440px) {
-    h1 {
+    .title-home {
         font-size: 40px;
         margin-left: 100px;
         
@@ -63,15 +105,32 @@ h3 {
         margin-right: 900px;
     }
     .navbar-nav {
-        font-size: 30px;
+        font-size: 23px;
     }
     .social-links {
-        font-size: 30px;
+        font-size: 23px;
     }
+    .text-aboutUs {
+    font-size: 20px;
+    }
+    .title-aboutUs {
+    padding-top: 60px;
+    margin-left: 180px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: #fafafa;
+   }
+   .text-aboutUs {
+    font-size: 23px;
+    }
+    ul li {
+    margin: 20px;
+    margin-left: 0;
+    }
+}
 
- }
  @media only screen and (max-width: 1024px) {
-    h1 {
+    .title-home {
         font-size: 35px;
         margin-left: 100px;
         
@@ -86,30 +145,48 @@ h3 {
         margin-top: 100px;
     }
     .navbar-nav {
-        font-size: 17px;
+        font-size: 20px;
     }
     .social-links {
         font-size: 20px;
     }
-    .photo {
+    .photo-home {
     height: 500px;
+    }
+    .title-aboutUs {
+    padding-top: 60px;
+    margin-left: 100px;
+    font-family: 'Sriracha', cursive;
+    font-size: 35px;
+    color: #fafafa;
+     }
+    .text-aboutUs {
+    font-size: 19px;
+    }
+    ul {
+    line-height: 17px;
     }
  }
  @media only screen and (max-width: 800px) {
-     h1 {
+     .title-home {
          margin-left: 20px;
      }
+     .navbar-nav {
+        font-size: 17px;
+      }
+      
      h3 {
          margin-right: 500px;
      }
+    .text-aboutUs {
+    font-size: 16px;
+    }
  }
-
-
 @media only screen and (max-width: 700px) {
     .navbar-nav{ 
         font-size: 16px;
     }
-     h1 {
+     .title-home {
          font-size: 32px;
          margin-left: 10px;
          padding: 0;
@@ -121,20 +198,41 @@ h3 {
          margin-left: 0;
          font-size: 32px;
      }
-     .photo {
+     .photo-home {
          height: 650px;
          background-position: right;
          
      }
      h3{
          font-size: 25px;
-         margin-left: 200px;
+         margin-left: 300px;
          margin-top: 280px;
          margin-right: 20px;
      }
- }
- @media only screen and (max-width: 320px){
-    .photo {
+
+    ul {
+        padding: 0;
+    }
+    ul li {
+    margin: 7px;
+    line-height: 18px;
+    }
+    .text-aboutUs { 
+    margin-left: 0px;
+    font-size: 13px;
+    height: 370px;
+    }
+    .title-aboutUs {
+    padding-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+   }
+    .photo-aboutUs {
+    height: 550px;
+    
+}
+ @media only screen and (max-width: 375px){
+    .photo-home {
          background-position: center;
          height: 500px;
      }
@@ -144,5 +242,14 @@ h3 {
          font-size: 20px;
 
      }
+    .text-aboutUs { 
+    height: 390px;
+    width: 50%;
+    margin-left: 0px;
+    font-size: 12px;
+    }
+    .photo-aboutUs {
+    height: 550px;
+    
 
  }

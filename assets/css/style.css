@@ -3,7 +3,7 @@
     grid-template-columns: 25% 25% 25% 25%;  
     margin-right: 0px;
     width: 100%;
-    font-size: 22px;
+    font-size: 40px;
     text-align: center;
 }
 .nav-item{
@@ -20,42 +20,129 @@
     background-size: cover;
     opacity: 0.95;
 }
-h2 {
+h1 {
     padding-top: 60px;
-    margin-left: 120px;
-    font-style: italic;
-    font-size: 40px;
+    margin-left: 280px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
     color: rgb(22, 21, 21);
+}
+h3 {
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    margin-right: 1600px;
+    font-size: 40px;
+    margin-top: 70px;
+    
+
 }
 
 #name{
-    font-size: 45px;
+    font-size: 55px;
     margin-left: 90px;
 }
 
 
 .social-links{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     
     
 }
 .social-links .col a i{
     color: #212529;
 }
+@media only screen and (max-width: 1440px) {
+    h1 {
+        font-size: 40px;
+        margin-left: 100px;
+        
+    }
+    h3{
+        font-size: 30px;
+        margin-right: 900px;
+    }
+    .navbar-nav {
+        font-size: 30px;
+    }
+    .social-links {
+        font-size: 30px;
+    }
 
- @media only screen and (max-width: 500px) {
-     h2 {
-         margin: 0;
+ }
+ @media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 35px;
+        margin-left: 100px;
+        
+    }
+    #name {
+        font-size: 37px;
+    }
+    h3{
+        font-size: 25px;
+        margin-right: 600px;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .navbar-nav {
+        font-size: 17px;
+    }
+    .social-links {
+        font-size: 20px;
+    }
+    .photo {
+    height: 500px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+     h1 {
+         margin-left: 20px;
+     }
+     h3 {
+         margin-right: 500px;
+     }
+ }
+
+
+@media only screen and (max-width: 700px) {
+    .navbar-nav{ 
+        font-size: 16px;
+    }
+     h1 {
+         font-size: 32px;
          margin-left: 10px;
          padding: 0;
          text-align: center;
-         font-size: 
+         padding-top: 20px;
+         
      }
      #name{
-         margin-left: 0
+         margin-left: 0;
+         font-size: 32px;
      }
      .photo {
-         height: 550px;
+         height: 650px;
+         background-position: right;
+         
      }
+     h3{
+         font-size: 25px;
+         margin-left: 200px;
+         margin-top: 280px;
+         margin-right: 20px;
+     }
+ }
+ @media only screen and (max-width: 320px){
+    .photo {
+         background-position: center;
+         height: 500px;
+     }
+     h3 {
+         margin-left: 10px;
+         margin-top: 300px;
+         font-size: 20px;
+
+     }
+
  }

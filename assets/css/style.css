@@ -62,6 +62,7 @@ h3 {
     font-size: 30px;
     padding-left: 0;
     color: #fafafa;
+    font-family: 'Sriracha', cursive;
 }
 
 .title-aboutUs {
@@ -81,6 +82,48 @@ ul li {
     margin-left: 0;
 }
 
+/*-------------------------------------Contact Us*/
+.photo-contactUs {
+    height: 570px;
+    width: 100%;
+    background: url("../images/doggo3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
+.title-contactUs {
+    padding-top: 60px;
+    margin-left: 120px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: #fafafa;
+    
+}
+
+.contact-form {
+    opacity: 0.9;
+    margin-top: 50px;
+    
+    width: 35%;
+    height: 250px;
+    margin-right: 700px;
+    margin-left: 120px;
+}
+.contact-call {
+    margin-left: 120px;
+    float: left;
+    font-size: 30px;
+    color: #fafafa;
+    margin-top: 0;
+
+}
+input {
+    width: 100%;
+}
+#details-contact {
+    width: 100%
+}
 
 /*----------------------------------- Footer*/
 
@@ -121,7 +164,7 @@ ul li {
     color: #fafafa;
    }
    .text-aboutUs {
-    font-size: 23px;
+    font-size: 22px;
     }
     ul li {
     margin: 20px;
@@ -161,7 +204,7 @@ ul li {
     color: #fafafa;
      }
     .text-aboutUs {
-    font-size: 19px;
+    font-size: 18px;
     }
     ul {
     line-height: 17px;
@@ -170,18 +213,32 @@ ul li {
  @media only screen and (max-width: 800px) {
      .title-home {
          margin-left: 20px;
-     }
+    }
      .navbar-nav {
         font-size: 17px;
-      }
+    }
       
      h3 {
          margin-right: 500px;
-     }
+    }
     .text-aboutUs {
     font-size: 16px;
     }
- }
+    
+    .title-contactUs {
+    margin-left: 80px;
+    font-size: 40px;
+    }
+    .contact-call {
+    margin-left: 80px;
+    }
+    .contact-form {
+    margin-left: 80px;
+    }
+    #name-contactUs {
+    font-size: 40px;
+   }
+}
 @media only screen and (max-width: 700px) {
     .navbar-nav{ 
         font-size: 16px;
@@ -214,23 +271,43 @@ ul li {
         padding: 0;
     }
     ul li {
-    margin: 7px;
-    line-height: 18px;
+        margin: 7px;
+        line-height: 18px;
     }
     .text-aboutUs { 
-    margin-left: 0px;
-    font-size: 13px;
-    height: 370px;
+        margin-left: 0px;
+        font-size: 13px;
+        height: 370px;
     }
     .title-aboutUs {
-    padding-top: 50px;
-    margin-left: 20px;
-    font-size: 25px;
+        padding-top: 50px;
+        margin-left: 20px;
+        font-size: 25px;
    }
     .photo-aboutUs {
-    height: 550px;
-    
-}
+        height: 550px;
+    }
+    .title-contactUs {
+        margin-left: 40px;
+        font-size: 30px;
+    }
+    .contact-call {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .contact-form {
+        margin-left: 30px;
+        font-size: 9px;
+        width: 50%;
+    }
+    #name-contactUs {
+        font-size: 30px;
+    }
+    #details-contact {
+        height: 80%;
+
+    }
+       
  @media only screen and (max-width: 375px){
     .photo-home {
          background-position: center;

@@ -153,22 +153,16 @@ input {
     .social-links {
         font-size: 23px;
     }
-    .text-aboutUs {
-    font-size: 20px;
-    }
     .title-aboutUs {
-    padding-top: 60px;
     margin-left: 180px;
-    font-family: 'Sriracha', cursive;
-    font-size: 50px;
-    color: #fafafa;
+   
    }
    .text-aboutUs {
     font-size: 22px;
     }
     ul li {
     margin: 20px;
-    margin-left: 0;
+
     }
 }
 
@@ -197,11 +191,8 @@ input {
     height: 500px;
     }
     .title-aboutUs {
-    padding-top: 60px;
     margin-left: 100px;
-    font-family: 'Sriracha', cursive;
     font-size: 35px;
-    color: #fafafa;
      }
     .text-aboutUs {
     font-size: 18px;
@@ -243,10 +234,9 @@ input {
     .navbar-nav{ 
         font-size: 16px;
     }
-     .title-home {
+    .title-home {
          font-size: 32px;
          margin-left: 10px;
-         padding: 0;
          text-align: center;
          padding-top: 20px;
          

@@ -47,11 +47,13 @@ li{
     list-style: none;
     padding: 0;
     margin-right: 500px;
-    font-size: 22px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 .title-aboutUs {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
+    margin-right: 75px;
 }
 #name{
     font-size: 32px;
@@ -90,212 +92,81 @@ input {
 .submit {
     background-color: rgb(45, 45, 109); 
 }
-
 /*----------------------------------- Footer*/
 
 .social-links{
     text-align: center;
     font-size: 20px;
-    
-    
 }
 .social-links .col a i{
     color: #212529;
 }
 
 /*-------------------------------------------- Media Querys*/
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-/*
-@media only screen and (max-width: 1440px) {
-    .title-home {
-        font-size: 40px;
-        margin-left: 100px;
-        
+@media (min-width: 576px) { 
+    .purpose {
+    margin-top: 66vh;
     }
-    h3{
-        font-size: 30px;
-        margin-right: 900px;
-    }
-    .navbar-nav {
-        font-size: 23px;
-    }
-    .social-links {
-        font-size: 23px;
-    }
-    .title-aboutUs {
-    margin-left: 180px;
-   
-   }
-   .text-aboutUs {
-    font-size: 22px;
-    }
-    ul li {
-    margin: 20px;
-
+    .contact-form {
+    margin-top: 55px;
+    width: 55%;
     }
 }
 
- @media only screen and (max-width: 1024px) {
+@media (min-width: 768px) { 
+    .purpose {
+    margin-top: 35vh;
+    text-align: left;
+    }
+    .text-aboutUs {
+    width: 65%;
+    }
+}
+
+@media (min-width: 992px) { 
     .title-home {
-        font-size: 35px;
-        margin-left: 100px;
-        
+        font-size: 3rem;
     }
-    #name {
-        font-size: 37px;
-    }
-    h3{
-        font-size: 25px;
-        margin-right: 600px;
-        margin-left: 70px;
-        margin-top: 100px;
-    }
-    .navbar-nav {
-        font-size: 20px;
-    }
-    .social-links {
-        font-size: 20px;
-    }
-    .photo-home {
-    height: 500px;
-    }
-    .title-aboutUs {
-    margin-left: 100px;
+    .purpose {
     font-size: 35px;
-     }
-    .text-aboutUs {
-    font-size: 18px;
     }
-    ul {
-    line-height: 17px;
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-between;
     }
- }
- @media only screen and (max-width: 800px) {
-     .title-home {
-         margin-left: 20px;
+    .nav-item {
+        font-size: 25px;
     }
-     .navbar-nav {
-        font-size: 17px;
-    }
-      
-     h3 {
-         margin-right: 500px;
-    }
-    .text-aboutUs {
-    font-size: 16px;
+    .social-links{
+        font-size: 25px;
     }
     
-    .title-contactUs {
-    margin-left: 80px;
-    font-size: 40px;
-    }
-    .contact-call {
-    margin-left: 80px;
-    }
-    .contact-form {
-    margin-left: 80px;
-    }
-    #name-contactUs {
-    font-size: 40px;
-   }
 }
-@media only screen and (max-width: 700px) {
-    .navbar-nav{ 
-        font-size: 16px;
-    }
-    .title-home {
-         font-size: 32px;
-         margin-left: 10px;
-         text-align: center;
-         padding-top: 20px;
-         
-     }
-     #name{
-         margin-left: 0;
-         font-size: 32px;
-     }
-     .photo-home {
-         height: 650px;
-         background-position: right;
-         
-     }
-     h3{
-         font-size: 25px;
-         margin-left: 300px;
-         margin-top: 280px;
-         margin-right: 20px;
-     }
 
-    ul {
-        padding: 0;
+@media (min-width: 1200px) { 
+    .photo-home {
+        height: 80vh;
     }
-    ul li {
-        margin: 7px;
-        line-height: 18px;
+    .purpose {
+    margin-top: 25vh;
     }
-    .text-aboutUs { 
-        margin-left: 0px;
-        font-size: 13px;
-        height: 370px;
+    .nav-item {
+        font-size: 30px;
+    }
+    .social-links{
+        font-size: 30px;
     }
     .title-aboutUs {
-        padding-top: 50px;
-        margin-left: 20px;
-        font-size: 25px;
-   }
-    .photo-aboutUs {
-        height: 550px;
+        font-size: 45px;
+    }
+    .text-aboutUs {
+        font-size: 32px;
     }
     .title-contactUs {
-        margin-left: 40px;
-        font-size: 30px;
+        font-size: 45px;
     }
     .contact-call {
-        margin-left: 40px;
-        font-size: 25px;
+        font-size: 40px;
     }
-    .contact-form {
-        margin-left: 30px;
-        font-size: 9px;
-        width: 50%;
-    }
-    #name-contactUs {
-        font-size: 30px;
-    }
-    #details-contact {
-        height: 80%;
 
-    }
-       
- @media only screen and (max-width: 375px){
-    .photo-home {
-         background-position: center;
-         height: 500px;
-     }
-     h3 {
-         margin-left: 10px;
-         margin-top: 300px;
-         font-size: 20px;
-
-     }
-    .text-aboutUs { 
-    height: 390px;
-    width: 50%;
-    margin-left: 0px;
-    font-size: 12px;
-    }
-    .photo-aboutUs {
-    height: 550px;
-    
-
- } */
+}

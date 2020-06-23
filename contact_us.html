@@ -6,7 +6,7 @@
     <title>Pet Photography Iko</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-   <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -18,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav font">
                 <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -36,22 +36,19 @@
         </div>
         </nav>
     </header>
-    <section >
-        <div class="photo-contactUs"> 
-            <div >
-                <h1 class="title-contactUs" >Pet Photography <br> <span id="name-contactUs">Iko</span>
-                </h1>
+    <section class="container">
+            <div class="row photo-contactUs">
+                <div class="col font colour" >
+                    <h1 class="title-contactUs" >Pet Photography Iko</h1>
+                    <h3 class="contact-call">Contact Us!</h3>
+                    <form class="contact-form bg-secondary">
+                        <input type="text" id="name-contact" placeholder="Name" required>
+                        <input type="text" id="email-contact" placeholder="Email" required>
+                        <textarea name="textarea" id="details-contact"  rows="5" placeholder="Write your request with as much details as possible!" required></textarea> 
+                        <input type="submit" value="Send" class="submit">
+                    </form>
+                </div>
             </div>
-             <div>
-                <h3 class="contact-call">Contact Us!</h3>
-                <form class="contact-form">
-                    <input type="text" id="name-contact" placeholder="Name" required>
-                    <input type="text" id="email-contact" placeholder="Email" required>
-                    <textarea name="textarea" id="details-contact"  rows="5" placeholder="Write your request with as much details as possible!" required></textarea> 
-                    <input type="submit" value="Send">
-                </form>
-            </div>
-        </div>
     </section>
     <footer>
         <div class="container-fluid">

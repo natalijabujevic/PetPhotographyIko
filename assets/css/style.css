@@ -1,142 +1,121 @@
-/*--------------------------------- Heading*/
-.navbar-nav{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;  
-    margin-right: 0px;
-    width: 100%;
-    font-size: 40px;
-    text-align: center;
+/*----------------------------------Font, Photos, Colours*/
+.font {
+    font-family: 'Sriracha', cursive;
 }
+.colour {
+    color: #fafafa;
+}
+/*--------------------------------- Heading*/
 .nav-item{
-    justify-content: space-around;
-
+    font-size: 20px;
+    margin: 0;
 }
 /*---------------------------------- Home page*/
 .photo-home {
-    height: 570px;
-    width: 100%;
     background: url("../images/doggo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.95;
+    opacity: 0.85;
+    height: 100vh;
 }
 .title-home {
-    padding-top: 60px;
-    margin-left: 280px;
-    font-family: 'Sriracha', cursive;
-    font-size: 50px;
+    margin-top: 20px;
     color: rgb(22, 21, 21);
 }
-h3 {
-    font-family: 'Sriracha', cursive;
+.purpose {
+    margin-top: 60vh;
     text-align: center;
-    margin-right: 1600px;
-    font-size: 40px;
-    margin-top: 70px; 
+    font-size: 25px;
+}
+li{
+  margin: 12px 0;
 }
 
-#name{
-    font-size: 55px;
-    margin-left: 90px;
-}
 /*----------------------------------About Us page*/
 .photo-aboutUs {
-    height: 570px;
-    width: 100%;
     background: url("../images/doggo2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.95;
+    opacity: 0.90;
 }
-
-
 .text-aboutUs {
     background-color:  rgb(22, 21, 21,0.5); 
-    width: 45%;
-    margin-right: 700px;
-    margin-left: 30px;
+    width: 90%;
     text-align: center;
-    height: 350px;
-    font-size: 30px;
-    padding-left: 0;
-    color: #fafafa;
-    font-family: 'Sriracha', cursive;
-}
-
-.title-aboutUs {
-    padding-top: 60px;
-    margin-left: 420px;
-    font-family: 'Sriracha', cursive;
-    font-size: 50px;
-    color: #fafafa;
-}
-
-ul {
     list-style: none;
-    line-height: 25px;
+    padding: 0;
+    margin-right: 500px;
+    font-size: 22px;
 }
-ul li {
-    margin: 30px;
-    margin-left: 0;
+.title-aboutUs {
+    font-size: 30px;
+    margin-top: 20px;
 }
-
+#name{
+    font-size: 32px;
+    margin-left: 90px;
+}
 /*-------------------------------------Contact Us*/
 .photo-contactUs {
-    height: 570px;
-    width: 100%;
     background: url("../images/doggo3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.95;
+    height: 75vh;
 }
 .title-contactUs {
-    padding-top: 60px;
-    margin-left: 120px;
-    font-family: 'Sriracha', cursive;
-    font-size: 50px;
-    color: #fafafa;
-    
+    padding-top: 20px;
+    font-size: 32px;
 }
 
 .contact-form {
     opacity: 0.9;
-    margin-top: 50px;
-    
-    width: 35%;
-    height: 250px;
-    margin-right: 700px;
-    margin-left: 120px;
+    margin-top: 75px;
+    width: 65%;
 }
 .contact-call {
-    margin-left: 120px;
-    float: left;
     font-size: 30px;
-    color: #fafafa;
-    margin-top: 0;
-
+    margin-top: 18px;
 }
 input {
     width: 100%;
+    
 }
 #details-contact {
     width: 100%
+}
+.submit {
+    background-color: rgb(45, 45, 109); 
 }
 
 /*----------------------------------- Footer*/
 
 .social-links{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     
     
 }
 .social-links .col a i{
     color: #212529;
 }
+
 /*-------------------------------------------- Media Querys*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+/*
 @media only screen and (max-width: 1440px) {
     .title-home {
         font-size: 40px;
@@ -319,4 +298,4 @@ input {
     height: 550px;
     
 
- }
+ } */

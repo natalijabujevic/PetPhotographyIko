@@ -1,26 +1,26 @@
-/*----------------------------------Font, Photos, Colours*/
+/*----------------------------------Font, Colours*/
 .font {
-    font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha', cursive, sans-serif;
 }
 .colour {
     color: #fafafa;
 }
 /*--------------------------------- Heading*/
 .nav-item{
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 /*---------------------------------- Home page*/
 .photo-home {
     background: url("../images/doggo.jpg");
+    opacity: 0.85;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.85;
-    height: 100vh;
 }
 .title-home {
-    margin-top: 20px;
+    margin-top: 2vh;
     color: rgb(22, 21, 21);
 }
 .purpose {
@@ -28,10 +28,6 @@
     text-align: center;
     font-size: 25px;
 }
-li{
-  margin: 12px 0;
-}
-
 /*----------------------------------About Us page*/
 .photo-aboutUs {
     background: url("../images/doggo2.jpg");
@@ -46,18 +42,17 @@ li{
     text-align: center;
     list-style: none;
     padding: 0;
-    margin-right: 500px;
     font-size: 20px;
     margin-top: 30px;
 }
-.title-aboutUs {
-    font-size: 25px;
-    margin-top: 20px;
-    margin-right: 75px;
+.text-aboutUs li {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
-#name{
-    font-size: 32px;
-    margin-left: 90px;
+.title-aboutUs {
+    font-size: 2.3rem;
+    margin-top: 20px;
+    margin-right: 30vh;
 }
 /*-------------------------------------Contact Us*/
 .photo-contactUs {
@@ -93,7 +88,6 @@ input {
     background-color: rgb(45, 45, 109); 
 }
 /*----------------------------------- Footer*/
-
 .social-links{
     text-align: center;
     font-size: 20px;
@@ -101,34 +95,80 @@ input {
 .social-links .col a i{
     color: #212529;
 }
-
 /*-------------------------------------------- Media Querys*/
+
+@media (min-width: 391px) {
+    .purpose {
+        margin-top: 68vh;
+    }
+    .title-aboutUs {
+        margin-right: 33vh;
+}
+
 @media (min-width: 576px) { 
     .purpose {
-    margin-top: 66vh;
+        margin-top: 48vh;
+        margin-left: 2vw;
+        text-align: left;
+        font-size: 26px;
+    }
+    .title-home {
+        margin-top: 2vh;
+        text-align: center;
+    }
+    .photo-home {
+        height: 85vh;
+    }
+    .title-aboutUs {
+        margin-right: 40vh;
+    }
+    .social-links{
+        font-size: 22px;
     }
     .contact-form {
-    margin-top: 55px;
-    width: 55%;
+        margin-top: 55px;
+        width: 55%;
     }
 }
 
 @media (min-width: 768px) { 
     .purpose {
-    margin-top: 35vh;
-    text-align: left;
+        margin-top: 28vh;
+        margin-left: 0;
+        font-size: 27px;
     }
-    .text-aboutUs {
-    width: 65%;
+    .title-home {
+        font-size: 2.8rem;
+        margin-top: 1vh;
+        text-align: left;
+    }
+    .photo-aboutUs {
+        height: 85vh;
+    }
+    .text-aboutUs{
+        width: 100%;
+        font-size: 23px;
     }
 }
 
 @media (min-width: 992px) { 
     .title-home {
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
     .purpose {
-    font-size: 35px;
+        font-size: 35px;
+    }
+    .photo-home {
+        height: 83vh;
+    }
+    .photo-aboutUs {
+        height: 80vh;
+    }
+    .title-aboutUs {
+        font-size: 2.8rem;
+    }
+    .text-aboutUs {
+        font-size: 1.4rem;
     }
     .navbar-nav {
         width: 100%;
@@ -144,11 +184,24 @@ input {
 }
 
 @media (min-width: 1200px) { 
+    .title-home {
+        font-size: 3rem;
+    }
     .photo-home {
         height: 80vh;
     }
     .purpose {
-    margin-top: 25vh;
+        margin-top: 25vh;
+        font-size: 37px;
+    }
+    .title-aboutUs {
+        font-size: 3rem;
+    }
+    .text-aboutUs {
+        font-size: 1.6rem;
+    }
+    .photo-aboutUs {
+        height: 82vh;
     }
     .nav-item {
         font-size: 30px;
@@ -156,17 +209,10 @@ input {
     .social-links{
         font-size: 30px;
     }
-    .title-aboutUs {
-        font-size: 45px;
-    }
-    .text-aboutUs {
-        font-size: 32px;
-    }
     .title-contactUs {
         font-size: 45px;
     }
     .contact-call {
         font-size: 40px;
     }
-
 }

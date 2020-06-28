@@ -14,7 +14,7 @@
 .photo-home {
     background: url("../images/doggo.jpg");
     opacity: 0.85;
-    height: 100vh;
+    height: 115vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
     color: rgb(22, 21, 21);
 }
 .purpose {
-    margin-top: 60vh;
+    margin-top: 70vh;
     text-align: center;
     font-size: 25px;
 }
@@ -61,7 +61,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.95;
-    height: 85vh;
+    height: 95vh;
 }
 .title-contactUs {
     padding-top: 20px;
@@ -69,7 +69,7 @@
 }
 .contact-form {
     opacity: 0.9;
-    margin-top: 75px;
+    margin-top: 15vh;
     width: 65%;
 }
 .contact-call {
@@ -77,17 +77,21 @@
     margin-top: 18px;
 }
 input {
-    width: 100%;
-    
+    width: 100%;  
 }
 #details-contact {
-    width: 100%
+    width: 100%;
+    margin-bottom: -15px;
+    height: 35vh;
 }
 .submit {
-    background-color: rgb(45, 45, 109); 
+    background-color: rgb(32, 145, 197); 
+    color: #fafafa;
+    height: 7vh;
 }
 .submit:hover {
-    background-color: rgb(200, 200, 214);
+    background-color: rgb(18, 36, 143);
+    color: rgb(203, 203, 223);
 }
 /*----------------------------------- Footer*/
 .social-links{
@@ -101,25 +105,39 @@ input {
 
 @media (min-width: 391px) {
     .purpose {
-        margin-top: 68vh;
+        margin-top: 78vh;
+        font-size: 2rem;
+    }
+    .title-home {
+        margin-top: 3vh;
+        font-size: 2.8rem;
     }
     .title-aboutUs {
         margin-right: 33vh;
+    }
+    .title-contactUs{
+       font-size: 2.5rem;
+    }
+    .contact-call {
+        font-size: 2.3rem;
+        margin-top: 18px;
+    }
 }
 
 @media (min-width: 576px) { 
     .purpose {
-        margin-top: 48vh;
+        margin-top: 52vh;
         margin-left: 2vw;
         text-align: left;
-        font-size: 26px;
+        font-size: 30px;
     }
     .title-home {
-        margin-top: 2vh;
+        margin-top: 3vh;
         text-align: center;
+        font-size: 3.5rem;
     }
     .photo-home {
-        height: 85vh;
+        height: 92vh;
     }
     .title-aboutUs {
         margin-right: 40vh;
@@ -135,27 +153,50 @@ input {
 
 @media (min-width: 768px) { 
     .purpose {
-        margin-top: 28vh;
+        margin-top: 58vh;
         margin-left: 0;
-        font-size: 27px;
+        font-size: 2.5rem;
     }
     .title-home {
-        font-size: 2.8rem;
-        margin-top: 1vh;
+        font-size: 3.7rem;
         text-align: left;
     }
     .photo-aboutUs {
-        height: 85vh;
+        height: 95vh;
+    }
+    .title-aboutUs {
+        font-size: 3rem;
     }
     .text-aboutUs{
         width: 100%;
-        font-size: 23px;
+        font-size: 2rem;
+    }
+    .photo-contactUs {
+        height: 92vh;
     }
     .title-contactUs {
-        font-size: 42px;
+        font-size: 3.5rem;
     }
     .contact-call {
-        font-size: 35px;
+        font-size: 3rem;
+    }
+    .contact-form {
+        margin-top: 20vh;
+        width: 55%;
+        font-size: 2rem;
+    }
+    input {
+        height: 5vh;
+    }
+    #details-contact {
+        width: 100%;
+        height: 30vh;
+    }
+    .nav-item {
+        font-size: 27px;
+    }
+    .social-links{
+        font-size: 27px;
     }
 }
 
@@ -165,51 +206,65 @@ input {
     }
     .purpose {
         font-size: 35px;
+        margin-top: 30vh;
     }
     .photo-home {
         height: 83vh;
     }
-    .photo-aboutUs {
-        height: 80vh;
-    }
     .title-aboutUs {
-        font-size: 2.8rem;
+        font-size: 4rem;
     }
     .text-aboutUs {
-        font-size: 1.4rem;
+        font-size: 2.8rem;
+        height: 78vh;
+    }
+    .photo-aboutUs {
+        height: 100vh;
+    }
+    .title-contactUs {
+        font-size: 4.5rem;
+    }
+    .contact-call {
+        font-size: 4.2rem;
+    }
+    .contact-form {
+        margin-top: 18vh;
+    }
+    .photo-contactUs {
+        height: 90vh;
     }
     .navbar-nav {
         width: 100%;
         justify-content: space-between;
     }
     .nav-item {
-        font-size: 25px;
+        font-size: 32px;
     }
     .social-links{
-        font-size: 25px;
+        font-size: 32px;
     }
 }
 
 @media (min-width: 1200px) { 
     .title-home {
-        font-size: 3rem;
+        font-size: 3.8rem;
     }
     .photo-home {
-        height: 80vh;
+        height: 85vh;
     }
     .purpose {
-        margin-top: 25vh;
-        font-size: 37px;
-    }
-    .title-aboutUs {
+        margin-top: 30vh;
         font-size: 3rem;
     }
+    .title-aboutUs {
+        font-size: 4rem;
+    }
     .text-aboutUs {
-        font-size: 1.7rem;
-        height: 60vh;
+        font-size: 2.5rem;
+        height: 90vh;
     }
     .photo-aboutUs {
-        height: 82vh;
+    height: 110vh;
     }
     .nav-item {
         font-size: 30px;
@@ -218,15 +273,40 @@ input {
         font-size: 30px;
     }
     .title-contactUs {
-        font-size: 50px;
+        font-size: 4rem;
     }
     .contact-call {
-        font-size: 40px;
+        font-size: 3.5rem;
     }
     .contact-form {
-        font-size: 20px;
+        font-size: 2rem;
+        margin-top: 13vh;
     } 
     .photo-contactUs {
-        height: 100vh;
+        height: 87vh;
+    }
+}
+@media (min-width: 1400px){
+    .title-home {
+    font-size: 4.5rem;
+    }
+    .photo-home {
+    height: 88vh;
+    }
+    .title-aboutUs {
+    font-size: 4.5rem;
+    }
+    .text-aboutUs {
+    font-size: 3rem;
+    height: 85vh;
+    }
+    .photo-aboutUs {
+    height: 105vh;
+    }
+    .nav-item {
+        font-size: 35px;
+    }
+    .social-links {
+        font-size: 35px;
     }
 }

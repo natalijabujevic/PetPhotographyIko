@@ -1,6 +1,6 @@
 <h1>Pet Photography Iko</h1>
 
-[View the live project here.](https://natalijabujevic.github.io/PetPhotographyIko/)
+[View the live project here.](https://natalijabujevic0708.github.io/PetPhotographyIko/)
 
 This is the website for Pet Photography Iko. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
@@ -111,7 +111,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages at https://natalijabujevic.github.io/PetPhotographyIko/.
+The project was deployed to GitHub Pages at https://natalijabujevic0708.github.io/PetPhotographyIko/.
 
 
 ## Credits

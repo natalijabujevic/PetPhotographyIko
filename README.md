@@ -32,14 +32,6 @@ This is the website for Pet Photography Iko. It is designed to be responsibe and
  - The Sriracha (cursive) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
 #### Imagery
 - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-### Wireframes
-
-- Home Page Wireframe - [View](https://github.com/)
-
-- Mobile Wireframe - [View](https://github.com/)
-
-- Contact Us Page Wireframe - [View](https://github.com/)
-
 ## Features
 
 -   Responsive on all device sizes
@@ -113,7 +105,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the background image doesn't load;
+-   On some mobile devices the background image on Home page doesn't load;
 
 ## Deployment
 

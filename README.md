@@ -32,6 +32,9 @@ This is the website for Pet Photography Iko. It is designed to be responsibe and
  - The Sriracha (cursive) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
 #### Imagery
 - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+### Wireframes
+- Wireframe - [View](https://wireframe.cc/pro/pp/dd6625b30356672)
+
 ## Features
 
 -   Responsive on all device sizes
@@ -65,7 +68,7 @@ This is the website for Pet Photography Iko. It is designed to be responsibe and
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) - [Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fnatalijabujevic0708.github.io%2FPetPhotographyIko%2F)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnatalijabujevic0708.github.io%2FPetPhotographyIko%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -110,9 +113,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Deployment
 
 ### GitHub Pages
+- The project was deployed to GitHub Pages using the following steps:
 
-The project was deployed to GitHub Pages at https://natalijabujevic0708.github.io/PetPhotographyIko/.
+1. Loged in to GitHub and located the [GitHub Repository](https://github.com/natalijabujevic0708/PetPhotographyIko)
+2. At the top of the Repository, located the "Settings" Button on the menu.
+3. Scrolled down the Settings page until I located the "GitHub Pages" Section.
+4. Under "Source", clicked the dropdown called "None" and select "Master Branch".
+5. The page automatically refreshed.
+6. Scrolled back down through the page to locate the now published site [link](https://natalijabujevic0708.github.io/PetPhotographyIko/) in the "GitHub Pages" section.
 
+- The developer had 2 github repositories and that is the reason there are 2 contributors - [natalijabujevic](https://github.com/natalijabujevic) and [natalijabujevic0708](https://github.com/natalijabujevic0708)
 
 ## Credits
 

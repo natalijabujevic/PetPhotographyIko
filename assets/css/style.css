@@ -7,8 +7,7 @@
 }
 /*--------------------------------- Heading*/
 .nav-item{
-    font-size: 18px;
-    margin: 0;
+    font-size: 1.5rem;
 }
 /*---------------------------------- Home page*/
 .photo-home {
@@ -24,9 +23,10 @@
     color: rgb(22, 21, 21);
 }
 .purpose {
-    margin-top: 80vh;
+    position: relative;
+    top: 80vh;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 /*----------------------------------About Us page*/
 .photo-aboutUs {
@@ -38,21 +38,17 @@
 }
 .text-aboutUs {
     background-color:  rgb(22, 21, 21,0.5); 
-    width: 90%;
     text-align: center;
-    list-style: none;
     padding: 0;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 1.5rem;
 }
 .text-aboutUs li {
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
 .title-aboutUs {
-    font-size: 2.3rem;
-    margin-top: 20px;
-    margin-right: 30vh;
+    font-size: 2rem;
+    margin-right: 33%;
 }
 /*-------------------------------------Contact Us*/
 .photo-contactUs {
@@ -61,32 +57,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.95;
-    height: 105vh;
+    height: 100vh;
 }
 .title-contactUs {
-    padding-top: 20px;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .contact-form {
     opacity: 0.9;
     margin-top: 15vh;
     width: 65%;
 }
-.contact-call {
-    font-size: 30px;
-    margin-top: 18px;
-}
-input {
-    width: 100%;   
-}
-#details-contact {
+.inputAreas {
     width: 100%;
-    height: 35vh;
 }
 .submit {
     background-color: rgb(32, 145, 197); 
     color: #fafafa;
-    height: 7vh;
+    height: 10vh;
 }
 .submit:hover {
     background-color: rgb(18, 36, 143);
@@ -95,7 +82,7 @@ input {
 /*----------------------------------- Footer*/
 .social-links{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .social-links .col a i{
     color: #212529;
@@ -104,74 +91,47 @@ input {
 
 @media (min-width: 391px) {
     .purpose {
-        margin-top: 78vh;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .title-home {
-        margin-top: 3vh;
-        font-size: 2.8rem;
-    }
-    .title-aboutUs {
-        margin-right: 33vh;
-    }
-    .title-contactUs{
-       font-size: 2.5rem;
-    }
-    .contact-call {
-        font-size: 2.3rem;
-        margin-top: 18px;
+        font-size: 3rem;
     }
 }
 
 @media (min-width: 576px) { 
     .purpose {
-        margin-top: 52vh;
-        margin-left: 2vw;
+        top: 60vh;
         text-align: left;
-        font-size: 30px;
+        font-size: 2rem;
     }
     .title-home {
-        margin-top: 3vh;
         text-align: center;
         font-size: 3.5rem;
     }
-    .photo-home {
-        height: 92vh;
+    .title-contactUs {
+        font-size: 3rem;
     }
-    .title-aboutUs {
-        margin-right: 40vh;
-    }
-    .social-links{
-        font-size: 22px;
+    .contact-call {
+        font-size: 2.5rem;
     }
     .contact-form {
-        margin-top: 55px;
-        width: 55%;
-    }
+        font-size: 1.5rem;
 }
 
 @media (min-width: 768px) { 
-    .purpose {
-        margin-top: 58vh;
-        margin-left: 0;
-        font-size: 2.5rem;
-    }
     .title-home {
-        font-size: 3.7rem;
+        font-size: 4rem;
         text-align: left;
     }
     .photo-aboutUs {
-        height: 95vh;
+        height: 120vh;
     }
     .title-aboutUs {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
-    .text-aboutUs{
-        width: 100%;
-        font-size: 2rem;
-    }
-    .photo-contactUs {
-        height: 92vh;
+    .text-aboutUs {
+        font-size: 2.5rem;
+        margin-top: 10%;
     }
     .title-contactUs {
         font-size: 3.5rem;
@@ -191,34 +151,22 @@ input {
         width: 100%;
         height: 30vh;
     }
-    .nav-item {
-        font-size: 27px;
-    }
     .social-links{
         font-size: 27px;
     }
 }
 
 @media (min-width: 992px) { 
-    .title-home {
-        font-size: 4rem;
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-between;
     }
     .purpose {
-        font-size: 3rem;
-        margin-top: 55vh;
+        font-size: 2.5rem;
+        top: 40vh;
     }
     .photo-home {
         height: 90vh;
-    }
-    .title-aboutUs {
-        font-size: 4rem;
-    }
-    .text-aboutUs {
-        font-size: 2.8rem;
-        height: 78vh;
-    }
-    .photo-aboutUs {
-        height: 100vh;
     }
     .title-contactUs {
         font-size: 4.5rem;
@@ -229,47 +177,12 @@ input {
     .contact-form {
         margin-top: 18vh;
     }
-    .photo-contactUs {
-        height: 90vh;
-    }
-    .navbar-nav {
-        width: 100%;
-        justify-content: space-between;
-    }
-    .nav-item {
-        font-size: 32px;
-    }
-    .social-links{
-        font-size: 32px;
-    }
+   
 }
 
 @media (min-width: 1200px) { 
-    .title-home {
-        font-size: 3.2rem;
-    }
     .photo-home {
         height: 85vh;
-    }
-    .purpose {
-        margin-top: 30vh;
-        font-size: 2.3rem;
-    }
-    .title-aboutUs {
-        font-size: 3.5rem;
-    }
-    .text-aboutUs {
-        font-size: 1.8rem;
-        height: 80vh;
-    }
-    .photo-aboutUs {
-    height: 105vh;
-    }
-    .nav-item {
-        font-size: 24px;
-    }
-    .social-links {
-        font-size: 30px;
     }
     .title-contactUs {
         font-size: 3.5rem;
@@ -281,31 +194,18 @@ input {
         font-size: 2rem;
         margin-top: 13vh;
     } 
-    .photo-contactUs {
-        height: 95vh;
-    }
 }
 @media (min-width: 1400px){
     .title-home {
-    font-size: 4.5rem;
+        font-size: 4.5rem;
     }
     .photo-home {
-    height: 88vh;
+        height: 88vh;
     }
     .title-aboutUs {
-    font-size: 4.5rem;
+        font-size: 4.5rem;
     }
     .text-aboutUs {
-    font-size: 3rem;
-    height: 85vh;
-    }
-    .photo-aboutUs {
-    height: 105vh;
-    }
-    .nav-item {
-        font-size: 35px;
-    }
-    .social-links {
-        font-size: 35px;
+        font-size: 3rem;
     }
 }

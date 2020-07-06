@@ -64,7 +64,7 @@ This is the website for Pet Photography Iko. It is designed to be responsibe and
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fnatalijabujevic.github.io%2FPetPhotographyIko%2F)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fnatalijabujevic0708.github.io%2FPetPhotographyIko%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section

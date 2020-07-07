@@ -2,7 +2,7 @@
 
 [View the live project here.](https://natalijabujevic0708.github.io/PetPhotographyIko/)
 
-This is the website for Pet Photography Iko. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
+This is the website for Pet Photography Iko. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
 
 <h2 align="center"><img src="./assets/images/responsivedesign.png"></h2>
 <h2>User Experience (UX)</h2>
@@ -102,7 +102,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone, Samsung and Motorola.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
